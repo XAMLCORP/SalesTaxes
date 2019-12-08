@@ -1,0 +1,67 @@
+{
+  "Products": [
+    {
+      "Id": "294d8b7d-9326-4191-813d-efb6b5c9934f",
+      "Name": "Book",
+      "Origin": 0,
+      "Price": 12.49,
+      "ProductType": 1
+    },
+    {
+      "Id": "736efac4-909b-444d-b351-39dcb1ad1988",
+      "Name": "Music CD",
+      "Origin": 0,
+      "Price": 14.99,
+      "ProductType": 0
+    },
+    {
+      "Id": "94761a48-33f4-4eaa-a8c2-4f120a1916bd",
+      "Name": "Chocolate Bar",
+      "Origin": 0,
+      "Price": 0.85,
+      "ProductType": 2
+    },
+    {
+      "Id": "7f667c08-ce46-4fcd-9df8-ff8182802b46",
+      "Name": "Box of Chocolates",
+      "Origin": 1,
+      "Price": 10.00,
+      "ProductType": 2
+    },
+    {
+      "Id": "c0f8493f-57df-4ff3-a404-872eb47bc8af",
+      "Name": "Box of Chocolates",
+      "Origin": 1,
+      "Price": 11.25,
+      "ProductType": 2
+    },
+    {
+      "Id": "8b39b802-9579-48b1-a9dc-5f3f91ed0666",
+      "Name": "Bottle of Perfume",
+      "Origin": 1,
+      "Price": 47.50,
+      "ProductType": 0
+    },
+    {
+      "Id": "f19985b6-8e7b-4868-9a60-1dc21aee99cc",
+      "Name": "Bottle of Perfume",
+      "Origin": 1,
+      "Price": 27.99,
+      "ProductType": 0
+    },
+    {
+      "Id": "cb986cb7-2f05-4f02-addd-9c3897023578",
+      "Name": "Bottle of Perfume",
+      "Origin": 0,
+      "Price": 18.99,
+      "ProductType": 0
+    },
+    {
+      "Id": "8104ecbd-dcba-49c6-aa49-45a82c98705f",
+      "Name": "Packet of Headache Pills",
+      "Origin": 0,
+      "Price": 9.75,
+      "ProductType": 3
+    }
+  ]
+}

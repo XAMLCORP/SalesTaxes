@@ -1,0 +1,28 @@
+{
+  "ShoppingCarts": [
+    {
+      "Id": "0a82eaa5-c5cb-4ec1-8b7b-bcc116e43625",
+      "Products": [
+        "294d8b7d-9326-4191-813d-efb6b5c9934f",
+        "736efac4-909b-444d-b351-39dcb1ad1988",
+        "94761a48-33f4-4eaa-a8c2-4f120a1916bd"
+      ]
+    },
+    {
+      "Id": "6656cdfc-3752-4fa5-b027-853ec62e1794",
+      "Products": [
+        "7f667c08-ce46-4fcd-9df8-ff8182802b46",
+        "8b39b802-9579-48b1-a9dc-5f3f91ed0666"
+      ]
+    },
+    {
+      "Id": "a2664e4b-0eef-4185-b049-dbdd5e605265",
+      "Products": [
+        "f19985b6-8e7b-4868-9a60-1dc21aee99cc",
+        "cb986cb7-2f05-4f02-addd-9c3897023578",
+        "8104ecbd-dcba-49c6-aa49-45a82c98705f",
+        "c0f8493f-57df-4ff3-a404-872eb47bc8af"
+      ]
+    }
+  ]
+}

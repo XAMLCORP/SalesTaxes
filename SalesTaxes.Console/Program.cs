@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace SalesTaxes.Console
 {
@@ -6,7 +6,9 @@ namespace SalesTaxes.Console
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello World!");
+            var container = Bootstrapper.Bootstrap();
+            var controller = container.GetService<IReceiptsController>();
+            controller.DisplayReceipts();
         }
     }
 }

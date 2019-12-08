@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxes.Entities", "SalesTaxes.Entities\SalesTaxes.Entities.csproj", "{4F8B6018-A455-46A1-8907-FDBF9030F24E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxes.Entities", "SalesTaxes.Entities\SalesTaxes.Entities.csproj", "{4F8B6018-A455-46A1-8907-FDBF9030F24E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxes.Repositories", "SalesTaxes.Repositories\SalesTaxes.Repositories.csproj", "{982738B8-AFE4-4760-9F5A-3FCA9DC35EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxes.Repositories", "SalesTaxes.Repositories\SalesTaxes.Repositories.csproj", "{982738B8-AFE4-4760-9F5A-3FCA9DC35EF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxes.Interfaces", "SalesTaxes.Interfaces\SalesTaxes.Interfaces.csproj", "{DA71F2AF-4685-4C8D-A33A-0A2A545C4834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxes.Interfaces", "SalesTaxes.Interfaces\SalesTaxes.Interfaces.csproj", "{DA71F2AF-4685-4C8D-A33A-0A2A545C4834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxes.ViewModels", "SalesTaxes.ViewModels\SalesTaxes.ViewModels.csproj", "{65F4D52E-9B15-4376-B312-32EDFDE0E597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxes.ViewModels", "SalesTaxes.ViewModels\SalesTaxes.ViewModels.csproj", "{65F4D52E-9B15-4376-B312-32EDFDE0E597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxes.Console", "SalesTaxes.Console\SalesTaxes.Console.csproj", "{23CD4CC8-340D-47AC-A31A-960D345817F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxes.Console", "SalesTaxes.Console\SalesTaxes.Console.csproj", "{23CD4CC8-340D-47AC-A31A-960D345817F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxes.Repositories.Mock", "SalesTaxes.Repositories.Mock\SalesTaxes.Repositories.Mock.csproj", "{C423ED9D-8A02-4343-8607-C907F55D6569}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxes.Calculators", "SalesTaxes.Calculators\SalesTaxes.Calculators.csproj", "{F5FE0861-AB70-436F-8AA5-A41F570AFF98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxes.Calculators.UnitTests", "SalesTaxes.Calculators.UnitTests\SalesTaxes.Calculators.UnitTests.csproj", "{85F907AC-470D-492A-BE93-5172A758975F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{23CD4CC8-340D-47AC-A31A-960D345817F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23CD4CC8-340D-47AC-A31A-960D345817F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23CD4CC8-340D-47AC-A31A-960D345817F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C423ED9D-8A02-4343-8607-C907F55D6569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C423ED9D-8A02-4343-8607-C907F55D6569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C423ED9D-8A02-4343-8607-C907F55D6569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C423ED9D-8A02-4343-8607-C907F55D6569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FE0861-AB70-436F-8AA5-A41F570AFF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FE0861-AB70-436F-8AA5-A41F570AFF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FE0861-AB70-436F-8AA5-A41F570AFF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FE0861-AB70-436F-8AA5-A41F570AFF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F907AC-470D-492A-BE93-5172A758975F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F907AC-470D-492A-BE93-5172A758975F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F907AC-470D-492A-BE93-5172A758975F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F907AC-470D-492A-BE93-5172A758975F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

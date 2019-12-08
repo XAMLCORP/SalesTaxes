@@ -23,7 +23,7 @@ namespace SalesTaxes.Console
                 System.Console.WriteLine("Sales Taxes: " + receipt.TaxTotal.ToString(string.Format("0.00")) + " Total: " + receipt.Total.ToString(string.Format("0.00")));
                 System.Console.WriteLine();
             }
-            //System.Console.ReadKey();
+            System.Console.ReadKey();
         }
     }
 }
